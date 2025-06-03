@@ -7,7 +7,7 @@ from torch import optim
 from tqdm import trange
 import numpy as np
 
-from TIRE import utils
+from . import utils
 
 class AbstractAE(nn.Module):
     def __init__(self,
